@@ -1,4 +1,5 @@
 import os
+from time import sleep
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -48,4 +49,5 @@ def main():
     print(show_steps(cup_qnt, cup_size), "\n")
 
 main()
+sleep(10)
 exit_screen()
