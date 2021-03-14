@@ -49,5 +49,5 @@ def main():
     print(show_steps(cup_qnt, cup_size), "\n")
 
 main()
-sleep(6)
+sleep(10)
 exit_screen()
